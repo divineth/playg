@@ -1559,10 +1559,11 @@ h3, h5 {
 
 .banner-top.style-2 {
   padding: 200px 0 140px;
-  background: url("../../assets/images/background/gradient.png");
+  background: url("../../assets/images/hero-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  min-height: 100vh;
 }
 
 .banner-top.style-2 .banner-top__content .title {

@@ -14,11 +14,37 @@
     <!-- end Styles -->
 
     <!-- Favicon and Touch Icons  -->
-    <!-- <link rel="shortcut icon" href="assets/images/logo/favicon.png" /> -->
-    <!-- <link
-      rel="apple-touch-icon-precomposed"
-      href="assets/images/logo/favicon.png"
-    /> -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/icons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/assets/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/assets/icons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body class="home-nft header-fixed" data-magic-cursor="hide">
     <!-- MAGIC CURSOR -->
@@ -59,12 +85,15 @@
                     <li class="menu-item">
                       <a href="#faq">FAQ</a>
                     </li>
+                    <li class="menu-item">
+                      <a href="#app">App</a>
+                    </li>
                     <li class="menu-item menu-item-has-children">
                       <a href="#">Tools</a>
                       <ul class="sub-menu">
-                          <li class="menu-item"><a href="#">Dextools</a></li>
+                        <li class="menu-item"><a href="#">Dextools</a></li>
                       </ul>
-                  </li>
+                    </li>
                   </ul>
                 </nav>
                 <div class="mobile-button"><span></span></div>
@@ -84,12 +113,13 @@
             <div class="banner-top__content text-center">
               <h2 class="title">Playground</h2>
               <p class="desc">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis eius saepe ad nulla! Quod fugiat sapiente quos commodi rem asperiores iure accusantium. Temporibus animi corporis repellat molestias dolorem perferendis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae veritatis eius saepe ad nulla! Quod fugiat sapiente
+                quos commodi rem asperiores iure accusantium. Temporibus animi
+                corporis repellat molestias dolorem perferendis.
               </p>
               <div class="row gap-3 justify-content-center">
-                <a
-                  href="#"
-                  class="btn-action col-md-12 col-xl-6 style-2"
+                <a href="#" class="btn-action col-md-12 col-xl-6 style-2"
                   ><span>ENTER APP</span></a
                 >
               </div>
@@ -115,7 +145,7 @@
           </div>
           <div class="col-xl-6 col-md-12">
             <div class="banner-top__sale">
-              <img src="assets/images/playground.jpg" alt="playground" />
+              <img src="assets/images/hero.png" alt="playground" />
             </div>
           </div>
         </div>
@@ -134,7 +164,11 @@
                   <div class="block-text">
                     <h3 class="title">About Playground</h3>
                     <p class="fs-20 mt-12">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, veritatis debitis tempore blanditiis iusto maxime? Expedita, omnis. Similique itaque excepturi eligendi esse, minus distinctio repellat magni, libero hic, dolore unde.
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, veritatis debitis tempore blanditiis iusto
+                      maxime? Expedita, omnis. Similique itaque excepturi
+                      eligendi esse, minus distinctio repellat magni, libero
+                      hic, dolore unde.
                     </p>
                   </div>
                 </div>
@@ -145,7 +179,7 @@
                     <div class="box-icon">
                       <span class="far fa-star"></span>
                       <p>
-                        Extemely <br/>
+                        Extemely <br />
                         Innovative
                       </p>
                     </div>
@@ -268,6 +302,39 @@
     </section>
     <!-- end Section RoadMap -->
 
+    <!-- Section Features -->
+    <section class="about jar style-2" id="app">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="about__content">
+              <div class="row align-items-center">
+                <div class="col-xl-6 col-md-12">
+                  <div class="block-text">
+                    <h3 class="title">Playground Platform</h3>
+                    <p class="fs-20 mt-12">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Alias eum voluptate atque quam ratione, at dolorum commodi
+                      deleniti possimus cum corporis magnam quis, cupiditate non
+                      dolor laudantium autem vitae esse?
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-md-12 text-center">
+                  <img
+                    src="assets/images/app.png"
+                    style="width: 100%"
+                    alt="playground"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section Features -->
+
     <!-- Section Faq -->
     <section class="section-faq style-2" id="faq">
       <div class="container">
@@ -285,25 +352,32 @@
                 <div class="content-tab">
                   <div class="content-inner flat-accordion">
                     <div class="flat-toggle active">
-                      <h6 class="toggle-title active">
-                        What is Playground?
-                      </h6>
+                      <h6 class="toggle-title active">What is Playground?</h6>
                       <p class="toggle-content">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quibusdam velit quo quas magni reiciendis quidem ea praesentium, accusantium maiores, placeat dicta eligendi aliquid consectetur rem dolorem minus nesciunt ullam.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Vel quibusdam velit quo quas magni reiciendis
+                        quidem ea praesentium, accusantium maiores, placeat
+                        dicta eligendi aliquid consectetur rem dolorem minus
+                        nesciunt ullam.
                       </p>
                     </div>
                     <div class="flat-toggle">
-                      <h6 class="toggle-title">
-                        Where can I get Playground?
-                      </h6>
+                      <h6 class="toggle-title">Where can I get Playground?</h6>
                       <p class="toggle-content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est eligendi esse laudantium, dolor, excepturi in doloribus et quisquam aperiam voluptatum veniam suscipit qui illo magnam. Sequi sit enim alias?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Delectus est eligendi esse laudantium, dolor,
+                        excepturi in doloribus et quisquam aperiam voluptatum
+                        veniam suscipit qui illo magnam. Sequi sit enim alias?
                       </p>
                     </div>
                     <div class="flat-toggle">
                       <h6 class="toggle-title">How do I stake Playground?</h6>
                       <p class="toggle-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam a saepe dolore sunt! Blanditiis enim dolor velit quam soluta, delectus quos? Incidunt veritatis explicabo doloribus maiores dolore officia! In.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis quibusdam a saepe dolore sunt! Blanditiis
+                        enim dolor velit quam soluta, delectus quos? Incidunt
+                        veritatis explicabo doloribus maiores dolore officia!
+                        In.
                       </p>
                     </div>
                   </div>
