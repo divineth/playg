@@ -3125,7 +3125,7 @@ h3, h5 {
   position: absolute;
   right: 24px;
   bottom: 0;
-  width: 210px;
+  width: 150px;
   /* animation: swing ease-in-out 1s infinite alternate; */
 }
 @keyframes swing {
